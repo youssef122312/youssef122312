@@ -2,6 +2,11 @@ from pytube import YouTube
 from tkinter import filedialog
 import tkinter, customtkinter
 from tkinter import *
+'''
+
+customtkinter==4.6.3
+
+'''
 from customtkinter import *
 from pytube import *
 from urllib.request import urlopen
@@ -10,6 +15,8 @@ import requests, os, threading, pathlib, pyautogui, time
 
 PATH1 = os.path.dirname(os.path.realpath(__file__))
 PATH = PATH1.replace("\\", "//")
+
+
 
 class App():
    
